@@ -1,9 +1,5 @@
-# Importa os módulos necessários
 import tkinter as tk
 from tkinter import ttk, messagebox
-
-# Função para converter tempo em porcentagem do dia.
-
 def time_to_percentage(time):
     try:
         # Separa as horas e minutos
