@@ -21,7 +21,7 @@ def time_to_percentage(time):
 # Função para calcular a porcentagem do dia com base no tempo inserido
 
 
-def calculate_percentage():  # Adicionado parâmetro de evento
+def calculate_percentage(event=None):  # Adicionado parâmetro de evento
     # Obtém o tempo do campo de entrada
     time = time_entry.get()
     # Verifica se o tempo foi inserido
