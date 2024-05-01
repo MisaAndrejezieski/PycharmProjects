@@ -1,5 +1,8 @@
 import tkinter as tk
+
+
 from tkinter import ttk, messagebox
+
 def time_to_percentage(time):
     try:
         # Separa as horas e minutos
@@ -16,6 +19,8 @@ def time_to_percentage(time):
         return None
 
 # Função para calcular a porcentagem do dia com base no tempo inserido
+
+
 def calculate_percentage(event=None):  # Adicionado parâmetro de evento
     # Obtém o tempo do campo de entrada
     time = time_entry.get()
@@ -36,6 +41,8 @@ def calculate_percentage(event=None):  # Adicionado parâmetro de evento
         messagebox.showerror("Erro Inesperado", f"Ocorreu um erro: {e}")
 
 # Cria a janela principal
+
+
 root = tk.Tk()
 root.title(":: Calculadora de Porcentagem de tempo ::")
 root.geometry("600x300")
