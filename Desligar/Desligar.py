@@ -11,3 +11,7 @@ if (desligar == "SIM" or "sim" or "S" or "s"):
 else:
     print("Desistiu???")
 
+janela = Tk()
+
+
+janela.mainloop()
