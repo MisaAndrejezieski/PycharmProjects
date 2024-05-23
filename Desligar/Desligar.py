@@ -1,4 +1,5 @@
 import os
+from tkinter import *
 
 desligar= input("Quer desligar sue pc?")
 
