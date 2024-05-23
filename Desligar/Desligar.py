@@ -3,11 +3,8 @@ from tkinter import *
 from tkinter import ttk
 
 def Desligar():
-    
-    if (desligar == "SIM" or "sim" or "S" or "s"):
-        def desligar_computador():
-            os.system("shutdown /s /t 1")
-            desligar_computador()
+    os.system("shutdown /s /t 1")
+
    
 
 root = Tk()
