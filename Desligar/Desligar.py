@@ -12,15 +12,15 @@ def Desligar():
             print("Desistiu???")
 
 janela = Tk()
-janela.geometry("400x400")
+janela.geometry("400x100")
 janela.title("Desligando o computador...")
 
 texto_orientacao = Label(janela, text="Desligar")
-texto_orientacao.grid(column=20, row=0)
+texto_orientacao.grid(column=20, row=4)
 
 butao = Button(janela, text="Sim")
-butao.grid(column=22, row=0)
+butao.grid(column=22, row=4)
 butao2 = Button(janela, text="Não")
-butao2.grid(column=26, row=0)
+butao2.grid(column=26, row=4)
 
 janela.mainloop()
