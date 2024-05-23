@@ -1,6 +1,6 @@
 import os
 from tkinter import *
-
+from tkinter import ttk
 
 def Desligar():
     desligar= input("Quer desligar sue pc?")
@@ -9,18 +9,11 @@ def Desligar():
             os.system("shutdown /s /t 1")
             desligar_computador()
     else:
-            print("Desistiu???")
+            print("Desistiu???")"""
 
-janela = Tk()
-janela.geometry("400x100")
-janela.title("Desligando o computador...")
-
-texto_orientacao = Label(janela, text="Desligar")
-texto_orientacao.grid(column=20, row=4)
-
-butao = Button(janela, text="Sim")
-butao.grid(column=22, row=4)
-butao2 = Button(janela, text="Não")
-butao2.grid(column=26, row=4)
-
-janela.mainloop()
+root = Tk()
+frm = ttk.Frame(root, padding=10)
+frm.grid()
+ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
+ttk.Button(frm, text="Sim", command=Desligar()).grid(column=1, row=0)
+root.mainloop()
