@@ -12,6 +12,7 @@ else:
     print("Desistiu???")
 
 janela = Tk()
+janela.title("Desligando o computador...")
 
 
 janela.mainloop()
