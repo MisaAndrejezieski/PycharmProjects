@@ -2,7 +2,7 @@ import os  # Importa o módulo os que permite a interação com o sistema operac
 from tkinter import *  # Importa tudo da biblioteca tkinter para criar interfaces gráficas
 from tkinter import ttk  # Importa ttk da biblioteca tkinter para usar widgets temáticos
 
-# 
+# Feito por Misa
 
 def Desligar():  # Define uma função chamada 'Desligar'
     os.system("shutdown /s /t 1")  # Executa o comando de desligamento do sistema operacional
