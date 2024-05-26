@@ -1,7 +1,7 @@
 import os
 from tkinter import *
 from tkinter import ttk
-
+misa
 def Desligar():
     os.system("shutdown /s /t 1")
 
